@@ -1,0 +1,5 @@
+PORTFOLIO HERO IMAGE UPDATE
+
+The Portfolio page hero now uses the newly supplied Sunlit Neutral Workspace with Olive Branches image as its full-bleed background. The previous background image is no longer referenced by portfolio.css. A restrained left-to-right espresso overlay is retained to support white headline legibility while allowing the new image to remain visible.
+
+No live website, hosting account, DNS, or production deployment was changed.

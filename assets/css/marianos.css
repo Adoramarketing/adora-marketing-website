@@ -1,0 +1,37 @@
+/* Mariano's Painting detail page — shared Adora portfolio system, neutral Adora palette */
+.marianos-page .marianos-hero{background:#f4ede4}
+.marianos-page .marianos-hero .dash-hero-visual{
+  width:100%;
+  max-width:410px;
+  height:auto;
+  aspect-ratio:1086 / 1630;
+  justify-self:end;
+  background:#e9dfd3;
+  overflow:hidden;
+}
+.marianos-page .marianos-hero .dash-hero-visual img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center center;
+}
+.marianos-page .marianos-hero h1{font-size:clamp(58px,6.5vw,90px)}
+.marianos-page .marianos-overview{background:#e9dfd3}
+.marianos-page .dash-gallery-section{background:#f4ede4}
+.marianos-page .dash-gallery .dash-card-image{height:270px}
+.marianos-page .dash-gallery .dash-card-image img{object-fit:cover;object-position:center center}
+.marianos-page .marianos-closing{background:#e9dfd3}
+.marianos-page .marianos-closing h2{
+  max-width:700px;
+  font:400 clamp(55px,6.2vw,82px)/1.02 'Bodoni Moda',Georgia,serif;
+  letter-spacing:-.05em;
+  color:#583a2e;
+}
+.marianos-page .marianos-closing h2 em{color:#a8957f}
+@media(max-width:900px){.marianos-page .marianos-hero .dash-hero-visual{max-width:360px}}
+@media(max-width:700px){
+  .marianos-page .marianos-hero .dash-hero-visual{justify-self:start;max-width:100%;width:min(100%,390px);aspect-ratio:1086 / 1630}
+  .marianos-page .marianos-hero .dash-hero-visual img{height:100%;object-fit:cover}
+  .marianos-page .marianos-hero h1{font-size:clamp(52px,12vw,72px)}
+  .marianos-page .marianos-closing h2{font-size:58px}
+}

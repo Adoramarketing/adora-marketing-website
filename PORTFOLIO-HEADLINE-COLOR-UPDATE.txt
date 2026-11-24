@@ -1,0 +1,8 @@
+PORTFOLIO HEADLINE COLOR UPDATE — CONCEPT 08
+
+Updated assets/css/portfolio.css:
+- Changed the Portfolio hero headline and emphasized “Meaningful impact.” text to Adora espresso brown #583A2E.
+- Adjusted the left-side hero image overlay to a warm, lighter tint so the espresso headline remains legible over the selected workspace photograph.
+- No page copy, navigation, portfolio cards, or other page sections were changed.
+
+This is a source package update only. It has not been deployed to the live website.

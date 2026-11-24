@@ -1,0 +1,62 @@
+/* Line Construction detail page — same reusable Adora portfolio system as DASH */
+.line-page .line-hero{
+  background:#f4ede4;
+}
+.line-page .line-hero .dash-hero-visual{
+  width:100%;
+  max-width:410px;
+  height:auto;
+  aspect-ratio:1545 / 2000;
+  justify-self:end;
+  background:#e9dfd3;
+  overflow:hidden;
+}
+.line-page .line-hero .dash-hero-visual img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center center;
+}
+.line-page .line-hero h1{
+  font-size:clamp(58px,6.5vw,90px);
+}
+.line-page .line-overview{background:#e9dfd3}
+.line-page .dash-gallery-section{background:#f4ede4}
+.line-page .dash-gallery .dash-card-image{
+  height:270px;
+}
+.line-page .dash-gallery .dash-card-image img{
+  object-fit:cover;
+  object-position:center center;
+}
+.line-page .line-closing{
+  background:#e9dfd3;
+}
+.line-page .line-closing h2{
+  max-width:700px;
+  font:400 clamp(55px,6.2vw,82px)/1.02 'Bodoni Moda',Georgia,serif;
+  letter-spacing:-.05em;
+  color:#583a2e;
+}
+.line-page .line-closing h2 em{color:#a8957f}
+@media(max-width:900px){
+  .line-page .line-hero .dash-hero-visual{max-width:360px}
+}
+@media(max-width:700px){
+  .line-page .line-hero .dash-hero-visual{
+    justify-self:start;
+    max-width:100%;
+    width:min(100%,390px);
+    aspect-ratio:1545 / 2000;
+  }
+  .line-page .line-hero .dash-hero-visual img{height:100%;object-fit:cover}
+  .line-page .line-hero h1{font-size:clamp(52px,12vw,72px)}
+  .line-page .line-closing h2{font-size:58px}
+}
+
+/* Match the DASH portfolio's sand-texture hero treatment. */
+.line-page .line-hero{
+  background:
+    linear-gradient(rgba(244,237,228,.20),rgba(244,237,228,.20)),
+    url("../images/dash-sand-texture.webp") center center / cover no-repeat;
+}

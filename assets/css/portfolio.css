@@ -1,0 +1,72 @@
+/* Portfolio — creative studio direction, aligned with Adora's approved visual system */
+.portfolio-hero{min-height:620px;position:relative;display:flex;align-items:center;padding:78px 7% 100px;background:#583a2e url('../images/portfolio-hero-sunlit-workspace.webp') center/cover no-repeat;color:#f4ede4;overflow:hidden}
+.portfolio-hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(244,237,228,.54) 0%,rgba(244,237,228,.34) 48%,rgba(244,237,228,.06) 100%);z-index:0;pointer-events:none}.portfolio-hero-copy{position:relative;z-index:2;max-width:650px;padding-left:2%}
+.portfolio-hero-copy .eyebrow{color:#d1c1b1;margin:0 0 28px}
+.portfolio-hero h1{font:400 clamp(54px,6.4vw,90px)/1.02 'Bodoni Moda',Georgia,serif;letter-spacing:-.045em;margin:0 0 27px;color:#8e7b68}
+.portfolio-hero h1 em{color:#583a2e}
+.portfolio-hero-copy>p:not(.eyebrow){max-width:450px;font-size:13px;line-height:2;color:#3a3a3a;margin:0 0 30px}
+.portfolio-hero .button{border-color:#d1c1b1;color:#f4ede4}
+.portfolio-hero .button:hover{background:#f4ede4;color:#583a2e}
+.portfolio-hero-index{position:absolute;bottom:25px;left:7%;right:7%;display:flex;justify-content:flex-start;color:#e4d6c8;font-size:8px;letter-spacing:.2em;z-index:2}
+.portfolio-intro{padding-top:108px;padding-bottom:62px}
+.portfolio-intro-top{display:flex;justify-content:space-between;align-items:start;border-bottom:1px solid #cbbcac;padding-bottom:24px}
+.portfolio-intro-top .eyebrow{color:#8e7b68;margin:0}
+.portfolio-intro-note{font:400 17px/1.6 'Bodoni Moda',Georgia,serif;color:#8e7b68;margin:0;text-align:right}
+.portfolio-intro-heading{display:grid;grid-template-columns:1.1fr .9fr;gap:10%;align-items:end;padding-top:45px}
+.portfolio-intro-heading h2{font:400 clamp(56px,7vw,88px)/.99 'Bodoni Moda',Georgia,serif;letter-spacing:-.045em;color:#583a2e;margin:0}
+.portfolio-intro-heading h2 em{color:#a8957f}
+.portfolio-intro-heading>p{font-size:13px;line-height:2;max-width:510px;margin:0 0 7px}
+.portfolio-work{padding:15px 9% 105px;display:grid;gap:80px}
+.work-card{display:grid;grid-template-columns:1.05fr .95fr;gap:8%;align-items:center}
+.work-image{height:490px;overflow:hidden;background:#e9dfd3;position:relative}
+.work-image:after{content:"";position:absolute;inset:0;border:1px solid rgba(88,58,46,.12);pointer-events:none}
+.work-image img{width:100%;height:100%;object-fit:cover;transition:transform .8s ease,filter .8s ease}
+.work-card:hover .work-image img{transform:scale(1.035);filter:saturate(.92)}
+.work-copy{padding:25px 5% 25px 0;max-width:510px}
+.work-number{font-size:8px;letter-spacing:.2em;color:#9a816d;margin:0 0 24px}
+.work-copy h3{font:400 clamp(48px,5.5vw,72px)/.98 'Bodoni Moda',Georgia,serif;letter-spacing:-.04em;color:#583a2e;margin:0 0 25px}
+.work-copy h3 em{color:#a8957f}
+.work-description{font-size:12px;line-height:2;max-width:420px;margin:0 0 28px;color:#3a3a3a}
+.work-services{font-size:8px;line-height:1.9;letter-spacing:.12em;color:#8e7b68;border-top:1px solid #cbbcac;padding-top:17px;margin:0}
+.work-services span{color:#a8957f;padding:0 5px}
+.portfolio-statement{background:#e9dfd3;padding:70px 9% 78px;color:#583a2e}
+.statement-rule{display:flex;justify-content:space-between;border-bottom:1px solid #c4b3a2;padding-bottom:18px;font-size:8px;letter-spacing:.2em;color:#8e7b68}
+.portfolio-statement h2{font:400 clamp(54px,7vw,86px)/1.02 'Bodoni Moda',Georgia,serif;letter-spacing:-.04em;margin:45px 0 20px}
+.portfolio-statement h2 em{color:#a8957f}
+.portfolio-statement>p{font-size:12px;line-height:2;max-width:460px;margin:0}
+.portfolio-statement .text-link{margin-top:27px}
+.portfolio-closing{min-height:560px;background:#583a2e;color:#f4ede4;display:grid;grid-template-columns:1fr .92fr;gap:9%;align-items:center;padding:85px 9%}
+.closing-copy{max-width:560px}
+.closing-copy .eyebrow{color:#d1c1b1}
+.closing-copy h2{font:400 clamp(56px,7vw,86px)/1.02 'Bodoni Moda',Georgia,serif;letter-spacing:-.045em;margin:24px 0}
+.closing-copy h2 em{color:#d1c1b1}
+.closing-copy>p:not(.eyebrow){font-size:12px;line-height:2;max-width:420px;margin:0 0 29px}
+.closing-image{height:360px;overflow:hidden}
+.closing-image img{width:100%;height:100%;object-fit:cover;transition:transform .8s}
+.closing-image:hover img{transform:scale(1.04)}
+@media(max-width:900px){.portfolio-hero{padding-left:5%;padding-right:5%}.work-image{height:410px}.portfolio-work{padding-left:6%;padding-right:6%;gap:62px}.portfolio-closing{gap:6%;padding-left:7%;padding-right:7%}}
+@media(max-width:700px){
+.portfolio-hero{padding:65px 8% 78px;min-height:540px}
+.portfolio-hero-copy{padding-left:0}
+.portfolio-hero h1{font-size:61px}
+.portfolio-hero-index{left:8%;right:8%;font-size:7px;gap:12px}
+.portfolio-intro{padding:72px 8% 42px}
+.portfolio-intro-top{gap:18px}
+.portfolio-intro-note{font-size:14px}
+.portfolio-intro-heading{grid-template-columns:1fr;gap:24px;padding-top:30px}
+.portfolio-intro-heading h2{font-size:62px}
+.portfolio-work{padding:12px 8% 65px;gap:54px}
+.work-card{grid-template-columns:1fr;gap:22px}
+.work-image{height:340px}
+.work-copy{padding:0}
+.work-copy h3{font-size:56px}
+.portfolio-statement{padding:54px 8% 60px}
+.statement-rule{font-size:7px;gap:16px}
+.portfolio-statement h2{font-size:59px;margin-top:35px}
+.portfolio-closing{grid-template-columns:1fr;padding:65px 8%;gap:30px}
+.closing-copy h2{font-size:62px}
+.closing-image{height:270px}
+}
+@media(prefers-reduced-motion:reduce){.work-image img,.closing-image img{transition:none}}
+
+.work-image-link{display:block}.work-copy h3 a{color:inherit;text-decoration:none}.work-copy .text-link{display:inline-flex;margin-top:18px;color:#583a2e}

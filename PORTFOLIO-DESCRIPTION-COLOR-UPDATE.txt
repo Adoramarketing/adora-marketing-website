@@ -1,0 +1,5 @@
+Portfolio description text color update
+
+- Changed the descriptive paragraph beneath “Thoughtful work. Meaningful impact.” to Adora charcoal #3A3A3A.
+- Preserved the hero image, layout, typography, and all other page content.
+- This is a source-file update only; no live website deployment was performed.

@@ -1,0 +1,84 @@
+/* Services page */
+.nav a.active:after{width:100%}
+.services-hero{min-height:620px;position:relative;display:grid;grid-template-columns:1fr 1fr;align-items:stretch;overflow:hidden;background:#583a2e;padding:56px 5.5% 82px;gap:5.5%}
+.services-hero-image{position:relative;align-self:center;height:480px;overflow:hidden;background:#a8957f}
+.services-hero-image img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.services-hero-content{position:relative;z-index:1;color:#f4ede4;padding:5% 0 5% 7%;max-width:680px;align-self:center}
+.services-hero-content h1{font:400 clamp(76px,8vw,122px)/.9 'Bodoni Moda',Georgia,serif;letter-spacing:-.05em;margin:28px 0}
+.services-hero-content h1 em{font-weight:400}
+.services-hero-content>p:last-child{font-size:13px;line-height:1.95;max-width:420px}
+.services-hero-bottom{position:absolute;bottom:26px;left:5.5%;right:5.5%;display:flex;justify-content:flex-start;color:#f4ede4;font-size:9px;letter-spacing:.2em}
+.service-list-section{background:#f4ede4;padding-bottom:90px}
+.service-list-intro{margin-bottom:46px}
+.service-list-intro h2,.ongoing-heading h2{font:400 clamp(48px,6vw,78px)/1.08 'Bodoni Moda',Georgia,serif;letter-spacing:-.04em;color:#583a2e;margin:38px 0 0}
+.service-list-intro h2 em,.ongoing-heading h2 em{font-weight:400}
+.service-row{display:grid;grid-template-columns:.72fr 1.28fr;gap:9%;padding:33px 0 35px;border-top:1px solid #bba998;align-items:center}
+.service-row:last-child{border-bottom:1px solid #bba998}
+.service-name{display:grid;grid-template-columns:52px 1fr;gap:12px;align-items:start}
+.service-name>span{font:400 22px/1 'Bodoni Moda',Georgia,serif;color:#8e7b68;padding-top:4px}
+.service-name h3{font:400 clamp(30px,3.4vw,46px)/1.08 'Bodoni Moda',Georgia,serif;color:#583a2e;margin:0;letter-spacing:-.025em}
+.service-detail p{font-size:12px;line-height:1.95;max-width:670px;margin:0 0 18px}
+.service-tags{font-size:8px;line-height:2;letter-spacing:.14em;color:#8e7b68;text-transform:uppercase;max-width:700px}
+.service-row{transition:padding .3s,background .3s}
+.service-row:hover{padding-left:16px;padding-right:16px;background:rgba(168,149,127,.08)}
+.flexible-services{display:grid;grid-template-columns:1fr .9fr;gap:10%;align-items:center;background:#e9dfd3;padding-top:100px;padding-bottom:100px}
+.flexible-copy h2{font:400 clamp(46px,5.5vw,70px)/1.06 'Bodoni Moda',Georgia,serif;color:#583a2e;letter-spacing:-.04em;margin:20px 0}
+.flexible-copy h2 em{font-weight:400}
+.flexible-copy>p:not(.eyebrow){font-size:12px;line-height:1.95;max-width:450px;margin:0 0 26px}
+.flexible-image{height:430px;overflow:hidden}
+.flexible-image img{width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .8s}
+.flexible-image:hover img{transform:scale(1.04)}
+.ongoing-section{background:#f4ede4}
+.ongoing-heading{display:grid;grid-template-columns:1.1fr .9fr;gap:10%;align-items:end;margin:42px 0 48px}
+.ongoing-heading h2{margin:0}
+.ongoing-heading>p{font-size:12px;line-height:1.95;max-width:420px;margin:0 0 6px}
+.ongoing-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.ongoing-card{border:1px solid #a8957f;background:#f8f4ee;padding:clamp(28px,4vw,52px);min-height:420px;display:flex;flex-direction:column;align-items:flex-start;transition:transform .35s,box-shadow .35s}
+.ongoing-card:hover{transform:translateY(-6px);box-shadow:0 18px 36px rgba(65,44,32,.1)}
+.ongoing-card .eyebrow{color:#8e7b68;margin:0}
+.ongoing-card h3{font:400 clamp(38px,4.5vw,58px)/1.02 'Bodoni Moda',Georgia,serif;color:#583a2e;margin:25px 0 14px}
+.ongoing-role{font-size:8px;letter-spacing:.18em;color:#8e7b68;margin:0 0 25px}
+.ongoing-card>p:not(.eyebrow):not(.ongoing-role){font-size:12px;line-height:1.9;max-width:390px;margin:0 0 28px}
+.ongoing-card .text-link{margin-top:auto}
+.ongoing-card-dark{background:#583a2e;border-color:#583a2e}
+.ongoing-card-dark .eyebrow,.ongoing-card-dark .ongoing-role{color:#d1c1b1}
+.ongoing-card-dark h3,.ongoing-card-dark>p:not(.eyebrow):not(.ongoing-role){color:#f4ede4}
+.ongoing-card-dark .text-link{color:#f4ede4;border-color:#d1c1b1}
+.ongoing-note{font-size:10px;color:#8e7b68;margin:20px 0 0}
+.services-closing{min-height:570px;position:relative;display:flex;align-items:center;overflow:hidden;background:#8b7865}
+.services-closing-image{position:absolute;inset:0;background:linear-gradient(90deg,rgba(25,19,15,.30),rgba(25,19,15,.05)),url('../images/services-arch-shadow.jpg') center 48%/cover;transition:transform 1.2s}
+.services-closing:hover .services-closing-image{transform:scale(1.035)}
+.services-closing-copy{position:relative;color:#fff;margin-left:auto;margin-right:12%;max-width:700px;padding:85px 0}
+.services-closing-copy h2{font:400 clamp(52px,6vw,78px)/1.08 'Bodoni Moda',Georgia,serif;color:#fff;margin:24px 0}
+.services-closing-copy h2 em{font-weight:400}
+.services-closing-copy>p:not(.eyebrow){max-width:390px;font-size:12px;line-height:1.9;margin:18px 0 28px}
+@media(max-width:900px){.service-row{gap:5%;grid-template-columns:.8fr 1.2fr}.service-name{grid-template-columns:38px 1fr}.flexible-services{gap:6%}.ongoing-card{min-height:390px}}
+@media(max-width:700px){.services-hero{min-height:0;grid-template-columns:1fr;padding:54px 8% 72px;gap:28px}.services-hero-content{padding:0;max-width:none}.services-hero-image{height:300px;width:100%}.services-hero-content h1{font-size:88px}.services-hero-content>p:last-child{font-size:12px;max-width:330px}.services-hero-bottom{left:8%;right:8%;font-size:7px;gap:12px}.service-list-section{padding-top:72px;padding-bottom:70px}.service-list-intro h2{font-size:58px;margin-top:30px}.service-row{grid-template-columns:1fr;gap:18px;padding:25px 0}.service-name{grid-template-columns:38px 1fr}.service-name>span{font-size:18px}.service-name h3{font-size:36px}.service-detail p{font-size:11px;margin-bottom:12px}.service-tags{font-size:7px}.flexible-services{grid-template-columns:1fr;gap:30px;padding-top:72px;padding-bottom:72px}.flexible-copy h2{font-size:52px}.flexible-image{height:310px}.ongoing-section{padding-top:72px;padding-bottom:72px}.ongoing-heading{grid-template-columns:1fr;gap:22px;margin:30px 0}.ongoing-heading h2{font-size:58px}.ongoing-grid{grid-template-columns:1fr;gap:12px}.ongoing-card{min-height:360px;padding:30px}.ongoing-card h3{font-size:46px}.services-closing{min-height:550px}.services-closing-copy{margin:0 8%;padding:65px 0}.services-closing-copy h2{font-size:58px}}
+@media(prefers-reduced-motion:reduce){.services-hero-image,.flexible-image img,.services-closing-image{transition:none;animation:none}}
+
+/* Expanded monthly package details — internal review draft */
+.package-intro{font-size:12px;line-height:1.9;max-width:420px;margin:0 0 16px}
+.package-price{display:flex;align-items:baseline;gap:7px;margin:0 0 22px;color:#8e7b68;font-size:11px}
+.package-price strong{font:500 32px/1 'Bodoni Moda',Georgia,serif;color:#583a2e}
+.package-price span{font-size:10px;letter-spacing:.04em}
+.package-list-label{font-size:8px;letter-spacing:.17em;color:#8e7b68;margin:0 0 10px}
+.package-list{list-style:none;padding:0;margin:0 0 22px;width:100%}
+.package-list li{position:relative;padding:7px 0 7px 18px;border-bottom:1px solid rgba(168,149,127,.28);font-size:10px;line-height:1.65}
+.package-list li:before{content:'✓';position:absolute;left:0;top:7px;color:#a8957f}
+.package-terms{margin-bottom:25px}
+.ongoing-card .text-link{margin-top:auto}
+.ongoing-card-dark .package-price{color:#d1c1b1}
+.ongoing-card-dark .package-price strong{color:#f4ede4}
+.ongoing-card-dark .package-list-label{color:#d1c1b1}
+.ongoing-card-dark .package-list li{border-color:rgba(244,237,228,.2);color:#f4ede4}
+.ongoing-card-dark .package-list li:before{color:#d1c1b1}
+@media(max-width:700px){.package-price strong{font-size:30px}.package-list li{font-size:10px}}
+
+/* Hero layout revision 04 — espresso panel with right-side brand image */
+.services-hero .eyebrow{color:#d8c7b8}
+.services-hero-content>p:last-child{color:#f4ede4}
+@media(min-width:701px) and (max-width:1000px){
+ .services-hero{min-height:560px;gap:4%;padding-left:5%;padding-right:5%}
+ .services-hero-image{height:400px}
+ .services-hero-content h1{font-size:clamp(68px,8vw,100px)}
+}

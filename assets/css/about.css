@@ -1,0 +1,37 @@
+/* About Us page */
+.nav a.active:after{width:100%}
+.about-hero{height:min(690px,calc(88vh - 88px));min-height:540px;position:relative;display:flex;align-items:center;overflow:hidden;background:#f4ede4}
+.about-hero-image{position:absolute;inset:0;background:url('../images/about-workspace-hero.webp') center center/cover no-repeat;transform:scale(1.01)}
+.about-hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(244,237,228,.18),rgba(244,237,228,0) 62%)}
+.about-hero-content{position:relative;z-index:1;color:#583a2e;padding:4% 0 4% 9%;width:52%;max-width:760px}
+.about-hero-content h1{font:400 clamp(76px,10vw,138px)/.9 'Bodoni Moda',Georgia,serif;letter-spacing:-.05em;margin:30px 0}
+.about-hero-content h1 em{font-weight:400}
+.about-hero-content>p:last-child{font-size:12px;letter-spacing:.12em;line-height:2}
+.about-hero-bottom{position:absolute;bottom:26px;left:5.5%;right:5.5%;z-index:1;display:flex;justify-content:space-between;color:#583a2e;font-size:9px;letter-spacing:.2em}
+.story-section{background:#f4ede4}
+.story-layout{display:grid;grid-template-columns:.85fr 1.15fr;gap:10%;margin-top:55px;align-items:start}
+.story-title h2,.partners-intro h2,.about-cta-copy h2{font:400 clamp(48px,6.3vw,82px)/1.08 'Bodoni Moda',Georgia,serif;letter-spacing:-.04em;color:#583a2e;margin:0}
+.story-title h2 em,.partners-intro h2 em,.about-cta-copy h2 em{font-weight:400}
+.story-copy p{font-size:13px;line-height:2.05;margin:0 0 22px;max-width:720px}
+.partners-section{background:#e9dfd3;padding-bottom:110px}
+.partners-intro{padding-bottom:35px}
+.partners-intro h2{margin:42px 0 18px}
+.partners-intro>p:last-child{max-width:530px;font-size:13px;line-height:1.9}
+.partner-list{padding:0 9%;display:grid;gap:28px}
+.partner-card{display:grid;grid-template-columns:.8fr 1.2fr;background:#f4ede4;min-height:600px}
+.partner-card-reverse{grid-template-columns:1.2fr .8fr}
+.partner-card-reverse .partner-image{order:2}
+.partner-image{min-height:600px;overflow:hidden}
+.partner-image img{width:100%;height:100%;object-fit:cover;object-position:center 28%;transition:transform .8s}
+.partner-card:hover .partner-image img{transform:scale(1.035)}
+.partner-copy{padding:clamp(30px,5vw,70px);align-self:center}
+.partner-copy h3{font:400 clamp(38px,4vw,54px)/1.1 'Bodoni Moda',Georgia,serif;color:#583a2e;margin:12px 0 26px}
+.partner-copy p:not(.eyebrow){font-size:11px;line-height:2;margin:0 0 18px}
+.about-cta{min-height:590px;position:relative;display:flex;align-items:center;overflow:hidden;background:#8d7866}
+.about-cta-image{position:absolute;inset:0;background:linear-gradient(90deg,rgba(33,23,17,.72),rgba(33,23,17,.22)),url('../images/palm-shadows.webp') center/cover}
+.about-cta-copy{position:relative;color:#fff;margin-left:auto;margin-right:12%;max-width:650px;padding:85px 0}
+.about-cta-copy h2{color:#fff;margin:22px 0}
+.about-cta-copy>p:not(.eyebrow){max-width:470px;margin:18px 0 28px;font-size:13px;line-height:1.9}
+@media(max-width:900px){.story-layout{gap:6%}.partner-list{padding:0 6%}.partner-copy{padding:34px}.partner-card,.partner-card-reverse{grid-template-columns:.8fr 1.2fr}}
+@media(max-width:700px){.about-hero{min-height:620px;height:calc(86vh - 76px);display:flex;flex-direction:column;justify-content:center;padding-top:0}.about-hero-image{inset:0;background-position:58% center}.about-hero-shade{background:linear-gradient(90deg,rgba(244,237,228,.82),rgba(244,237,228,.32) 72%)}.about-hero-content{width:75%;max-width:none;padding:8%}.about-hero-content h1{font-size:76px;margin:22px 0}.about-hero-bottom{position:absolute;left:8%;right:8%;bottom:22px;padding:0;font-size:7px;gap:12px}.story-layout{grid-template-columns:1fr;gap:28px;margin-top:32px}.story-title h2,.partners-intro h2{font-size:58px}.partners-section{padding-bottom:70px}.partners-intro{padding-top:72px;padding-bottom:25px}.partner-list{padding:0 7%;gap:18px}.partner-card,.partner-card-reverse{grid-template-columns:1fr}.partner-card-reverse .partner-image{order:0}.partner-image{min-height:0;height:390px}.partner-copy{padding:28px}.partner-copy p:not(.eyebrow){font-size:11px}.about-cta{min-height:570px}.about-cta-copy{margin:0 8%;padding:65px 0}.about-cta-copy h2{font-size:60px}}
+@media(prefers-reduced-motion:reduce){.partner-image img,.about-hero-image{transition:none;animation:none}}

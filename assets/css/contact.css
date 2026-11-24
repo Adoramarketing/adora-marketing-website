@@ -1,0 +1,30 @@
+/* Contact page — Adora Marketing */
+.contact-hero{min-height:640px;position:relative;display:flex;align-items:center;overflow:hidden;background:#583a2e;color:#f4ede4}
+.contact-hero-image{position:absolute;inset:0;background:linear-gradient(90deg,rgba(49,31,23,.82),rgba(49,31,23,.42) 58%,rgba(49,31,23,.22)),url('../images/studio-workspace.webp') center 52%/cover;transform:scale(1.015)}
+.contact-hero-copy{position:relative;z-index:1;padding:82px 9%;max-width:760px}
+.contact-hero-copy .eyebrow{color:#e4d4c3}
+.contact-hero-copy h1{max-width:650px;font:400 clamp(54px,6.2vw,82px)/1.08 'Bodoni Moda',Georgia,serif;letter-spacing:-.04em;margin:24px 0 20px;color:#f4ede4}
+.contact-hero-copy h1 em{color:#d7c4b1}
+.contact-hero-copy>p:not(.eyebrow){max-width:560px;font-size:15px;line-height:1.85;margin:0 0 30px;color:#f4ede4}
+.contact-hero-foot{position:absolute;z-index:1;bottom:26px;left:5.5%;right:5.5%;display:flex;justify-content:space-between;gap:20px;color:#f4ede4;font-size:8px;letter-spacing:.2em}
+.contact-form-section{padding:120px 9%;display:grid;grid-template-columns:.8fr 1.2fr;gap:10%;align-items:start;background:linear-gradient(rgba(244,237,228,.78),rgba(244,237,228,.78)),url('../images/dash-sand-texture.webp') center/cover fixed}
+.contact-form-intro{position:sticky;top:125px}
+.contact-form-intro h2,.contact-bottom h2{font:400 clamp(48px,6vw,76px)/1.06 'Bodoni Moda',Georgia,serif;letter-spacing:-.04em;color:#583a2e;margin:28px 0}
+.contact-form-intro h2 em,.contact-bottom h2 em{color:#a8957f}
+.contact-form-intro>p:not(.eyebrow){max-width:390px;line-height:2;font-size:12px}
+.contact-note{display:flex;flex-direction:column;gap:5px;margin-top:54px;padding-top:20px;border-top:1px solid #cbbcac;color:#8e7b68;font-size:8px;letter-spacing:.17em;text-transform:uppercase}
+.contact-form-panel{background:#eee5db;padding:clamp(28px,5vw,62px)}
+.inquiry-form{display:flex;flex-direction:column;gap:24px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.inquiry-form label{display:flex;flex-direction:column;gap:9px;color:#583a2e;font-size:9px;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+.inquiry-form label span{color:#a66d54;display:inline}
+.inquiry-form input,.inquiry-form textarea{width:100%;border:0;border-bottom:1px solid #b9a895;border-radius:0;background:transparent;padding:12px 2px;color:#3a3a3a;font:400 13px/1.7 Montserrat,Arial,sans-serif;letter-spacing:0;text-transform:none;outline:none;resize:vertical}
+.inquiry-form input:focus,.inquiry-form textarea:focus{border-bottom-color:#583a2e;box-shadow:0 1px 0 #583a2e}
+.inquiry-form textarea::placeholder{color:#9b8d80}
+.form-note{font-size:9px;line-height:1.7;color:#806f61;margin:0}
+.inquiry-form button:disabled{opacity:.55;cursor:not-allowed;transform:none}
+.contact-bottom{padding:95px 9%;display:grid;grid-template-columns:1fr .75fr;gap:10%;align-items:center;background:#a8957f;color:#3a3a3a}
+.contact-bottom h2{margin-bottom:0;color:#583a2e}.contact-bottom h2 em{color:#f4ede4}
+.contact-bottom>p{max-width:470px;line-height:2;font-size:13px;margin:0}
+@media(max-width:800px){.contact-form-section{grid-template-columns:1fr;gap:45px;padding:85px 7%}.contact-form-intro{position:static}.contact-note{margin-top:30px}.contact-bottom{grid-template-columns:1fr;gap:25px;padding:75px 7%}}
+@media(max-width:600px){.contact-hero{min-height:620px}.contact-hero-copy{padding:75px 8%;max-width:100%}.contact-hero-copy h1{font-size:clamp(48px,12vw,64px);max-width:100%}.contact-hero-foot{left:8%;right:8%;font-size:7px;flex-direction:column;gap:5px}.form-row{grid-template-columns:1fr;gap:24px}.contact-form-panel{padding:28px 22px}.contact-bottom h2{font-size:52px}}
