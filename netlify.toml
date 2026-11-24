@@ -1,0 +1,5 @@
+[build]
+  publish = "."
+
+# This is a plain static HTML/CSS/JavaScript site.
+# No build command or environment variables are required for the current source.
